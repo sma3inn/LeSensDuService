@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "package.json",
-  "author": "sma3inn <isma.kabbaj@hotmail.com>",
+  "author": "o-charaf-e <charafeddine99@hotmail.com>",
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
