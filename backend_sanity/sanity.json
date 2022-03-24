@@ -1,10 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "LeSensDuService"
+    "name": "Le Sens Du Service"
   },
   "api": {
-    "projectId": "akrezss6",
+    "projectId": "q751b4ss",
     "dataset": "production"
   },
   "plugins": [
