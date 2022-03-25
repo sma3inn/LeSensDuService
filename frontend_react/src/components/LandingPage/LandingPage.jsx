@@ -1,47 +1,15 @@
 import React from 'react'
+import { Hero, MiniPrestations,AvantagesFiscaux,Equipe,Engagements,Contact } from '../../container'
 
 const LandingPage = () => {
   return (
-    <div>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
-        <h1>Landing page</h1>
+    <div className='landingpage'>
+        <Hero />
+        <MiniPrestations />
+        <AvantagesFiscaux />
+        <Equipe />
+        <Engagements />
+        <Contact />
     </div>
   )
 }

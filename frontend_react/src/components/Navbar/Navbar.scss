@@ -1,3 +1,69 @@
+
+.app__navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    //background-color: bisque;
+
+    .app__navbar-logo{
+        position: relative;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 2em;
+        transition: 0.6s;
+        color: black;
+    }
+
+    ul{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li{
+            position: relative;
+            list-style: none;
+
+            a{
+                position: relative;
+                margin: 0 15px;
+                text-decoration: none;
+                color: black;
+                font-size: 1.1em;
+                transition: 0.6s;
+
+                &:hover{
+                    color: grey;
+                }
+            }
+        }
+    }
+}
+
+.app__navbar.sticky{
+    padding: 20px 100px;
+    background: black;
+
+    .app__navbar-logo{
+        color: bisque;
+    }
+
+    ul li a{
+        color: bisque;
+        font-size: 1em;
+        transition: 0.6s;
+        &:hover{
+            color: white;
+        }
+    }
+}
+
 /*.app__navbar {
     width: 100%;
 
@@ -77,69 +143,3 @@
     }
 }
 */
-
-
-.app__navbar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.6s;
-    padding: 40px 100px;
-    background-color: bisque;
-
-    .app__navbar-logo{
-        position: relative;
-        font-weight: 700;
-        text-decoration: none;
-        font-size: 2em;
-        transition: 0.6s;
-        color: black;
-    }
-
-    ul{
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        li{
-            position: relative;
-            list-style: none;
-
-            a{
-                position: relative;
-                margin: 0 15px;
-                text-decoration: none;
-                color: black;
-                font-size: 1.1em;
-                transition: 0.6s;
-
-                &:hover{
-                    color: grey;
-                }
-            }
-        }
-    }
-}
-
-.app__navbar.sticky{
-    padding: 20px 100px;
-    background: black;
-
-    .app__navbar-logo{
-        color: bisque;
-    }
-
-    ul li a{
-        color: bisque;
-        font-size: 1em;
-        transition: 0.6s;
-        &:hover{
-            color: white;
-        }
-    }
-}

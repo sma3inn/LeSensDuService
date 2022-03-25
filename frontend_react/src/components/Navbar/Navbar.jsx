@@ -26,10 +26,17 @@ const Navbar = () => {
   return (
 
     <nav className={`app__navbar ${sticky ? "sticky" : ""}`}>
-      <a className='app__navbar-logo' href='#'>logo</a>
+      <a className='app__navbar-logo' href='/#'>logo</a>
       <ul>
         <li><Link to="/">Accueil</Link></li>
         <li><Link to="/prestations">Prestations</Link></li>
+        <li><a href='/#equipe'>Équipe</a></li>
+        <li><a href='/#avantagesfiscaux'>Avantages fiscaux</a></li>
+        <li><a href='/#engagements'>Nos Engagements</a></li>
+        <li><a href='/#contact'>Contact</a></li>
+
+
+
       </ul>
 
 
