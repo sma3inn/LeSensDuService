@@ -1,8 +1,12 @@
 import React from 'react'
 
+import './MiniPrestations.scss'
+
 const MiniPrestations = () => {
   return (
-    <div>MiniPrestations</div>
+    <section className='miniPrestations'>
+      <h2>Prestation</h2>
+    </section>
   )
 }
 

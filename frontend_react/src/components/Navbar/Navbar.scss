@@ -19,7 +19,11 @@
         font-size: 2em;
         transition: 0.6s;
         color: black;
+        min-width: 10%;
+        max-width: 20%;
     }
+
+    //add img to change size
 
     ul{
         position: relative;
@@ -40,7 +44,8 @@
                 transition: 0.6s;
 
                 &:hover{
-                    color: grey;
+                    transition: 0.6s;
+                    color: var(--secondary-color);
                 }
             }
         }
@@ -48,12 +53,13 @@
 }
 
 .app__navbar.sticky{
-    padding: 20px 100px;
+    padding: 30px 100px;
     background: white;
     box-shadow: 0 2px 20px 0 rgba(148, 148, 148, 0.25);
 
     .app__navbar-logo{
         color: black;
+        max-width: 15%;
     }
 
     ul li a{
@@ -61,7 +67,7 @@
         font-size: 1em;
         transition: 0.6s;
         &:hover{
-            color: white;
+            color: var(--secondary-color);
         }
     }
 }

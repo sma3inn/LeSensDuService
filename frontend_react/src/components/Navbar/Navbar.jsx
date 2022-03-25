@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import{ images } from '../../constants'
+
 import './Navbar.scss';
 
 
@@ -26,7 +28,7 @@ const Navbar = () => {
   return (
 
     <nav className={`app__navbar ${sticky ? "sticky" : ""}`}>
-      <a className='app__navbar-logo' href='/#'>logo</a>
+      <a className='app__navbar-logo' href='/#'><img src={images.logo}/></a>
       <ul>
         <li><Link to="/">Accueil</Link></li>
         <li><Link to="/prestations">Prestations</Link></li>
