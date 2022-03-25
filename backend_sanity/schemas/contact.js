@@ -4,6 +4,11 @@ export default {
     type:'document',
     fields:[
         {
+            name:'contact',
+            title:'Contact',
+            type:'string'
+        },
+        {
             name:'telephone',
             title:'Telephone',
             type:'number',
