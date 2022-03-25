@@ -9,6 +9,10 @@
     --gray-color: #6b7688;
     --brown-color: #46364a;
     --white-color: #ffffff;
+    --header-height: 3rem;
+    --big-font-size: 2.5rem;
+    --normal-font-size: .938rem;
+    --z-fixed: 100;
 }
 
 * {
