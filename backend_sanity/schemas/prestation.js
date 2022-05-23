@@ -26,5 +26,10 @@ export default {
             title:'Tarif',
             type:'number',
         },
+        {
+            name:'informations',
+            title:'Informations complémentaires',
+            type:'text',
+        },
     ]
 }
