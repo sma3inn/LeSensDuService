@@ -19,7 +19,7 @@ const Hero = () => {
           <a href='#prestations' className='btn'>Nos Prestations</a>
         </div>
         <div className='hero__image'>
-          <img src={images.first} />
+          <img src={images.work} />
         </div>
       </div>
     </header>
