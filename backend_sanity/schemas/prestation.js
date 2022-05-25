@@ -31,5 +31,15 @@ export default {
             title:'Informations complémentaires',
             type:'text',
         },
+
+        {
+            name: 'slug',
+            title: 'Slug',
+            type: 'slug',
+            options: {
+                source: 'title',
+                maxLength:100,
+            }
+        }
     ]
 }
