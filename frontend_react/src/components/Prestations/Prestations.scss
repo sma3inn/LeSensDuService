@@ -3,16 +3,6 @@
     height: 60vh;
     background: var(--primary-color);
 
-    h2{
-        font-size: 3.5rem;
-
-        .highlight{
-                background: linear-gradient(120deg, var(--highlight-color) 0%, var(--highlight-color) 100%);
-                background-repeat: no-repeat;
-                background-size: 100% 35%;
-                background-position: 0 85%;
-        }
-    }
 }
 
 @media screen and (max-width:1024px) {

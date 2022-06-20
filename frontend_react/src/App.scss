@@ -12,6 +12,17 @@ h1, h2, h3, h4, h5{
   line-height: 1.2;
 }
 
+h2{
+  font-size: 3.5rem;
+
+  .highlight{
+          background: linear-gradient(120deg, var(--highlight-color) 0%, var(--highlight-color) 100%);
+          background-repeat: no-repeat;
+          background-size: 100% 35%;
+          background-position: 0 85%;
+  }
+} 
+
 section {
   padding-top: 4rem;
 

@@ -5,8 +5,8 @@
     --font-base: "Poppins", sans-serif;
     --primary-color: #f8f8f8;
     --secondary-color: #FC5AA8;
-    --hover-color:#df438e;
-    --highlight-color:#ffdce8;
+    --hover-color: #df438e;
+    --highlight-color: #ffdce8;
     --lightgray-color: #E6E6E6;
     --black-color: #030303;
     --lightGray-color: #e4e4e4;
@@ -19,23 +19,27 @@
     --z-fixed: 100;
     --container-lg: 85%;
     --container-md: 90%;
+    --surface-color: #fff;
+    --curve: 40;
 
-    
 }
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    border: 0; /*newer version */
+    border: 0;
+    /*newer version */
     list-style: none;
     text-decoration: none;
     scroll-behavior: smooth;
     font-family: var(--font-base);
-    -ms-overflow-style: none;  /* hide scrollbar IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    /* hide scrollbar IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
 *::-webkit-scrollbar {
     display: none;
-  }
+}

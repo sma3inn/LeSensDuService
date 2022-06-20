@@ -1,8 +1,12 @@
 import React from 'react'
+import './Engagements.scss'
 
 const Engagements = () => {
   return (
-    <div>Engagements</div>
+    <section className='Engagements' id='engagements'>
+    <h2><span className='highlight'>Nos Engagements</span></h2>
+    
+  </section>
   )
 }
 
