@@ -1,10 +1,11 @@
 import React from 'react'
+import './Prestations.scss';
 
 const Prestations = () => {
   return (
-    <div>
-        <h1>Prestations</h1>
-    </div>
+    <section className='Prestations'>
+      <h2><span className='highlight'>Nos Prestations</span></h2>
+    </section>
   )
 }
 
