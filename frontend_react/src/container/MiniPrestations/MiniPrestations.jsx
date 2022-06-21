@@ -38,7 +38,7 @@ const MiniPrestations = () => {
                   {/*<span class="card__status">1 hour ago</span>*/}
                 </div>
               </div>
-              <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+              <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
             </div>
           </a>
         </li>
@@ -52,7 +52,7 @@ const MiniPrestations = () => {
                   <h3 class="card__title">Jardinage</h3>
                 </div>
               </div>
-              <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+              <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
             </div>
           </a>
         </li>
@@ -66,7 +66,7 @@ const MiniPrestations = () => {
                   <h3 class="card__title">Repassage</h3>
                 </div>
               </div>
-              <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+              <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
             </div>
           </a>
         </li>
