@@ -23,7 +23,7 @@ const Equipe = () => {
       <h2><span className='highlight'>Notre Equipe</span></h2>
       <div>
         <h1>{equipe.titre}</h1>
-        <p>{equipe.texte}</p>
+        {/*<p>{equipe.texte}</p>*/}
 
       </div>
     </section>
